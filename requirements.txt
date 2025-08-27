@@ -3,4 +3,6 @@ pytesseract
 python-docx
 crewai==0.150.0
 crewai-tools==0.58.0
+python-docx
+
 Pillow
