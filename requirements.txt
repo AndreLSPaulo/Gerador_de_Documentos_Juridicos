@@ -3,7 +3,6 @@ openpyxl
 python-docx
 pillow
 pytesseract
-crewai==0.15.0
-crewai-tools==0.58.0
+
 
 
