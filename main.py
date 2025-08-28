@@ -123,17 +123,17 @@ opcao_alfabetizado = st.radio(
 # Define os modelos de acordo com a escolha
 if opcao_alfabetizado == "Sim":
     modelos_arquivo = {
-        "CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS": "contratos_cadastro/CONTR.PREST.SERV.ADV.xlsx",
-        "DECLARAÇÃO DE HIPOSSUFICIÊNCIA DE RENDA": "contratos_cadastro/DECLARAÇÃO DE HIPOSSUFICIÊNCIA DE RENDA.xlsx",
-        "DECLARAÇÃO DE VIDA E RESIDÊNCIA": "contratos_cadastro/DECLAR.VIDA.RESIDÊNCIA.xlsx",
-        "PROCURAÇÃO AD JUDICIA ET EXTRA": "contratos_cadastro/PROCURAÇÃO AD JUDICIA ET EXTRA.xlsx"
+        "CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS": "CONTR.PREST.SERV.ADV.xlsx",
+        "DECLARAÇÃO DE HIPOSSUFICIÊNCIA DE RENDA": "DECLARAÇÃO DE HIPOSSUFICIÊNCIA DE RENDA.xlsx",
+        "DECLARAÇÃO DE VIDA E RESIDÊNCIA": "DECLAR.VIDA.RESIDÊNCIA.xlsx",
+        "PROCURAÇÃO AD JUDICIA ET EXTRA": "PROCURAÇÃO AD JUDICIA ET EXTRA.xlsx"
     }
 else:
     modelos_arquivo = {
-        "CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS_ANALFABETO(A)": "contratos_cadastro/CONTR.PREST.SERV.ADV_ANALFABETO(A).xlsx",
-        "DECLARAÇÃO DE HIPOSSUFICIÊNCIA DE RENDA_ANALFABETO(A)": "contratos_cadastro/DECLARAÇÃO DE HIPOSSUFICIÊNCIA DE RENDA_ANALFABETO(A).xlsx",
-        "DECLARAÇÃO DE VIDA E RESIDÊNCIA_ANALFABETO(A)": "contratos_cadastro/DECLARAÇÃO_DE_VIDA_E_RESIDÊNCIA_ANALFABETO(A).xlsx",
-        "PROCURAÇÃO AD JUDICIA ET EXTRA_ANALFABETO(A)": "contratos_cadastro/PROCURAÇÃO AD JUDICIA ET EXTRA_ANALFABETO(A).xlsx"
+        "CONTRATO DE PRESTAÇÃO DE SERVIÇOS ADVOCATÍCIOS_ANALFABETO(A)": "CONTR.PREST.SERV.ADV_ANALFABETO(A).xlsx",
+        "DECLARAÇÃO DE HIPOSSUFICIÊNCIA DE RENDA_ANALFABETO(A)": "DECLARAÇÃO DE HIPOSSUFICIÊNCIA DE RENDA_ANALFABETO(A).xlsx",
+        "DECLARAÇÃO DE VIDA E RESIDÊNCIA_ANALFABETO(A)": "DECLARAÇÃO_DE_VIDA_E_RESIDÊNCIA_ANALFABETO(A).xlsx",
+        "PROCURAÇÃO AD JUDICIA ET EXTRA_ANALFABETO(A)": "PROCURAÇÃO AD JUDICIA ET EXTRA_ANALFABETO(A).xlsx"
     }
 
     # Campos adicionais se o cliente NÃO for alfabetizado
@@ -805,3 +805,4 @@ if gerar:
             file_name="Recibo_de_servicos_juridicos.docx",
             mime="application/vnd.openxmlformats-officedocument.wordprocessingml.document"
         )
+
