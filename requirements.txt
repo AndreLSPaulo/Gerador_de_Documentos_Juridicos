@@ -1,29 +1,6 @@
-# --- Framework principal ---
-streamlit==1.38.0
-
-# --- Manipulação de Excel ---
-openpyxl==3.1.5
-odfpy==1.4.1  # suporte a ODT/ODS/ODP
-
-# --- Manipulação de dados ---
-pandas==2.2.2
-numpy==2.0.1
-
-# --- Imagens / OCR ---
-Pillow==10.4.0
-pytesseract==0.3.10
-
-# --- Manipulação de DOCX / RTF / TXT ---
-python-docx==0.8.11
-pypandoc==1.13
-
-# --- PDFs ---
-reportlab==4.2.2   # geração de PDFs
-PyMuPDF==1.24.9    # leitura/extração de PDFs (fitz)
-camelot-py==0.11.0 # extração de tabelas de PDFs (se usar)
-pdfplumber==0.11.0 # leitura de PDFs em texto (se usar)
-
-# --- Utilidades ---
-python-dateutil==2.9.0
-
-
+streamlit
+openpyxl
+python-docx
+pillow
+pytesseract
+pandas
